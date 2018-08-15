@@ -166,5 +166,13 @@ def crack():
             print("password is " + passwordtry)
             print("[runtime] " + (str(time.time() - start_time)) + "s")
             break
+
+qanda = input("were you happy with the program ")
+if qanda == "y":
+    print("I am glad.")
+elif qanda == "n":
+    print("I am sorry to hear that.")
+else:
+    print("please enter only 'y' or 'n'")
        
 crack()
