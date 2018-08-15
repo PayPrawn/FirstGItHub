@@ -1,1 +1,2 @@
-print("This is a test")
+a = "This is a test"
+print(a)
