@@ -167,6 +167,7 @@ def crack():
             print("[runtime] " + (str(time.time() - start_time)) + "s")
             break
 
+crack()
 qanda = input("were you happy with the program ")
 if qanda == "y":
     print("I am glad.")
@@ -174,5 +175,3 @@ elif qanda == "n":
     print("I am sorry to hear that.")
 else:
     print("please enter only 'y' or 'n'")
-       
-crack()
