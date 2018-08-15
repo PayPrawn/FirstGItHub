@@ -1,2 +1,2 @@
-a = "This is a test"
-print(a)
+a = input("If you are happy and you know it clap your ")
+print(a + " on expierience")
