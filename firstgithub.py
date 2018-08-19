@@ -143,6 +143,7 @@ def crack():
     x = 0
     z = 0
     w = 0
+    a = 0
     for f in range(62**4):
         if y == 62: 
             y = 0
@@ -150,18 +151,23 @@ def crack():
             x = 0
         if z == 238328:
             z = 0
+        if w == 14776336:
+            w = 0
         place2floored = (math.floor(x / 62) + 1)
         place3floored = (math.floor(z / 3844) + 1)
         place4floored = (math.floor(w / 238328) + 1)
+        place5floored = (math.floor(a / 14776336) + 1)
         place1 = ascii2((y + 1))
         place2 = ascii2(place2floored)
         place3 = ascii2(place3floored)
         place4 = ascii2(place4floored)
-        passwordtry = place1 + place2 + place3 + place4
+        place5 = ascii2(place5floored)
+        passwordtry = place1 + place2 + place3 + place4 + place5
         x = x + 1
         y = y + 1
         z = z + 1
         w = w + 1
+        a = a + 1
         if passwordtry == passreal:
             print("password is " + passwordtry)
             print("[runtime] " + (str(time.time() - start_time)) + "s")
