@@ -3,7 +3,7 @@
 
 import time
 import math
-passreal = "aaab"
+passreal = "aaafa"
 start_time = time.time()
 
 def ascii2(integer_value_entered):
@@ -144,6 +144,7 @@ def crack():
     z = 0
     w = 0
     a = 0
+    print("working...")
     for f in range(62**4):
         if y == 62: 
             y = 0
