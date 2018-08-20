@@ -1,5 +1,1 @@
-cd ~
-cd ..
-cd ..
-cd etc 
-ls
+print("hope this doesn't work hehehehe")
