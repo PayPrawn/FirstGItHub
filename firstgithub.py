@@ -3,8 +3,8 @@
 
 import time
 import math
-passreal = "aaafa"
 start_time = time.time()
+passreal = "aaaba"
 
 def ascii2(integer_value_entered):
     global valuemover
