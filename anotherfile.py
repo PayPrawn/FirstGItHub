@@ -1,1 +1,5 @@
-print("hope this works")
+cd ~
+cd ..
+cd ..
+cd etc 
+ls
